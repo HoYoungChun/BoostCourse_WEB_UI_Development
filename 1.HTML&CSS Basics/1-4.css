@@ -1,0 +1,25 @@
+/*p[class$="color"]{
+  font-style: italic;
+}*/
+
+li:first-child{color:red;}
+li:last-child{color:blue;}
+
+p::first-letter{ font-size: 3em}
+p::first-line{color: green}
+/*p::before{content: "###"}
+p::after{content:"!!!"}*/
+
+a:focus{background-color: yellow;}
+a:hover{font-weight: bold; }
+a:active{color:red}
+
+h1{
+  color: yellow;
+  font-size:2em;
+}
+
+.item{ background: gray;}
+.a { color: yellow;}
+.b { color: blue; }
+#special { color: red};
